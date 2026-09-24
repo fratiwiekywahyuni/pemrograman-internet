@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biodata</title>
+</head>
+<body>
+    <form action="proses.html" method="post">
+        <label for="nama">Nama</label><input type="text" name="nama" id="nama" value="Fratiwi Eky Wahyuni"><br>
+        <label for="tmpt_lahir">Tempat Lahir</label><input type="text" name="tmpt_lahir" id="tmpt_lahir" value="Jambi"><br>
+        <label for="tgl_lahir">Tanggal Lahir</label><input type="date" name="tgl_lahir" id="tgl_lahir" value="2007-12-05"><br>
+
+        <p>hobi (bisa lebih dari 1 pilihan)</p>
+        <label for="">berenang</label><input type="checkbox" name="hobi[]" id="" value="berenang">
+        <label for="">membaca</label><input type="checkbox" name="hobi[]" checked id="" value="membaca">
+        <label for="">melukis</label><input type="checkbox" name="hobi[]" checked id="" value="melukis">
+
+        <p>jenis kelamin</p>
+        <label for=""></label>laki-laki<input type="radio" name="jk" id="" value="L">
+        <label for=""></label>perempuan<input type="radio" name="jk" id="" checked value="P"><br>
+        
+        <p>Deskripsikan tentang kamu</p>
+        <textarea name="deskripsi">saya fratiwi eky wahyuni, mahasiswa teknik informatika yang tertarik pada teknologi dan analisis sistem. saya ingin mengembangkan kemampuan dibidang IT Business Analyst, terutama memahami masalah dan mencari solusi dengan memanfaatkan teknologi.</textarea>
+       
+        <select name="agama" id="">
+            <option selected value="1">islam</option>
+            <option value="2">khatolik</option>
+            <option value="3">hindu</option>
+            <option value="4">budha</option>
+        </select>
+
+
+        <input type="submit" value="simpan">
+    </form>
+    
+</body>
+</html>
