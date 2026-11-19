@@ -34,12 +34,12 @@ Body {
 
 .sidebar-nav .nav-link.active {
     background: var(--active-menu);
-    color: #63eaf4;
+    color: #ffff;
 }
 
 .sidebar-nav .nav-link:hover {
-    background: rgb(239, 92, 92);
-    color: #5ce495;
+    background: rgb(154, 153, 153);
+    color: #ffff;
 }
 
 .sidebar-nav .menu-text{
